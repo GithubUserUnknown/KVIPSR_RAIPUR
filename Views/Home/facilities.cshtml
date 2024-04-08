@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Fee Structure";
+}
+<link href="~/assets/css/facilities.css" rel="stylesheet"/>
+<div>
+<br>
+<br>
+<br>
+<br>
+<div class="hero-image">
+    <div class="hero-text">
+        <h1 style="font-size:50px">KVIPSR FACILITIES</h1>
+        <p>Life at KVIPSR</p>
+        <button>Join us</button>
+    </div>
+</div>
+<br>
+<h1 style="text-align: center; margin-top: 10px; color: #535353;">ACCOMODATION</h1>
+<div class="Sxn-1 center">
+    <div class="scontainer" style="background-color:#ffffff;">
+        <img src="~/assets/images/clg_logo.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    </div>
+    <div class="scontainer" style="background-color:#ffffff;">
+        <img src="~/assets/images/16023.jpg">
+        <br><br><br><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    </div>
+    <div class="scontainer" style="background-color:#fefefc;">
+        <img src="~/assets/images/clg_logo.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    </div>
+</div>
+
+
+
+
+
+<div class="Sxn-2 center">
+    <br><br>
+    <h1 style="text-align: center; margin-top: 10px; color: #dfdfdf;">SPORTS</h1>
+    <div class="mcontainer">
+        <div class="scontain">
+            <img src="~/assets/images/16023.jpg">
+            <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        <div class="scontain">
+            <img src="~/assets/images/16023.jpg">
+            <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="Sxn-1" id="sxn-3">
+    <div class="btns"><button id="mbtn1"><b>Transport</b></button><button id="mbtn2"><b>Labs</b></button><button id="mbtn3"><b>T&P Cells</b></button></div>
+
+    <div class="center">
+        <img src="~/assets/images/gallery/gallery_01.jpg" width="70%" height="600px" id ="myImg">
+        <p id="change-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    </div>
+</div>
+</div>
+
+<script>
+    const myImg = document.getElementById("myImg");
+    const mbtn2 = document.getElementById("mbtn2");
+
+    mbtn2.addEventListener("click", function () {
+        myImg.src = '@Url.Content("~/assets/images/gallery/gallery_02.jpg")';
+    });
+    mbtn3.addEventListener("click", function () {
+        myImg.src = '@Url.Content("~/assets/images/gallery/gallery_03.jpg")';
+    });
+    mbtn1.addEventListener("click", function () {
+        myImg.src = '@Url.Content("~/assets/images/gallery/gallery_01.jpg")';
+    });
+
+
+    const changeText = document.querySelector("#change-text");
+
+    mbtn2.addEventListener("click", function () {
+        changeText.textContent = "Text has been changed!";
+    });
+    mbtn3.addEventListener("click", function () {
+        changeText.textContent = "Text has been changed again!";
+    });
+    mbtn1.addEventListener("click", function () {
+        changeText.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.";
+    });
+</script>

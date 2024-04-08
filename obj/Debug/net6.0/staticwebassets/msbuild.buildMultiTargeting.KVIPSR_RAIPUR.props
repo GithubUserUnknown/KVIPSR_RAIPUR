@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KVIPSR_RAIPUR.props" />
+</Project>
