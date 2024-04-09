@@ -3,123 +3,137 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Vikash group of institutions</title>
 
-    <link rel="shortcut icon" href="~/assets/images/fav.jpg">
     <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/assets/css/fontawsom-all.min.css">
-    <link rel="stylesheet" href="~/assets/plugins/slider/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="~/assets/plugins/slider/css/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
 
-    <link id="dynamicStylesheet" rel="stylesheet" href="~/assets/css/facilities.css">
-    
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/aos-master/dist/aos.css">
+   
+    <style>
+
+            /* Adjusting styles for hover dropdown */
+            .navbar{
+        padding: 0em !important;
+        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;
+      }
+
+#carousel {
+    margin-top: 25px;
+    height: 700px !important;
+}
+
+.carousel-caption {
+  padding-bottom: 170px !important;
+}
+
+
+
+
+
+
+/* Add more styles as needed for different elements */
+    </style>
 
 </head>
 
 <body>
-
+    
     <!-- ################# Header Starts Here#######################--->
     <header>
-        <div class="header-top">
+        <div id="header">
+        <div class="header-top" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="70" data-aos-duration="700">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 left-item">
                         <ul>
                             <li><i class="fas fa-envelope-square"></i> collegeemail@gmail</li>
                             <li><i class="fas fa-phone-square"></i> +918955725145</li>
-
+                            
+                            
                         </ul>
                     </div>
                     <div class="col-lg-8 d-none d-lg-block right-item">
                         <div class="top-header">
-                            <b class="news-list">NEWS: </b>
-
+                            <b class="news-list" >NEWS: </b>
+                        
                             <marquee class="headquote"> Admissions are now open for the 2024 session. Apply now !!!</marquee>
                         </div>
                     </div>
-
+                    
                 </div>
 
             </div>
         </div>
-        <div id="nav-head" class="header-nav">
-            <div class="containe">
-                <div class="row">
-                    <div class="col-md-2 col-sm-11 nav-img">
-                        <a class="navbar-brand" href="@Url.Action("Index","Home")">
-                            <img src="~/assets/images/clg_logo.png" alt="" height="96px" width="100px">
-                        </a>
-                        <a data-toggle="collapse" data-target="#menu" href="#menu" role="button"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="1000" data-aos-duration="1000">
+            <div class="container-fluid navtab">
+              <a class="navbar-brand ml-5" href="@Url.Action("Index","Home")">
+                <img src="~/assets/images/KVHEI, Raipur.png" alt=""  height="91px" width="135px"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-2">
+                  <li class="nav-item dropdown btn41-43 btn-43">
+                    <a class="nav-link" href="#" id="navbarDropdown1" role="button" >
+                        About us
+                    </a>
+                    
+                  </li>
+                  <li class="nav-item dropdown btn41-43 btn-43">
+                    <a class="nav-link " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Academics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <a class="dropdown-item" href="@Url.Action("Index","Home")#cources">Course Offered</a>
+                      <a class="dropdown-item" href="#">Submenu 2</a>
+                                    <a class="dropdown-item" href="@Url.Action("Syllabus","Home")">Syllabus</a>
                     </div>
-                    <div id="menu" class="col-md-10 d-none d-md-block ml-auto nav-item">
-                        <ul>
-
-                            <li>
-                                @Html.ActionLink("Facilities", "facilities", "Home" , new {  })
-                            </li>
-
-                            <li>
-                                <a href="#" class="dropdown-toggle ml-auto" data-toggle="dropdown">Accreditation</a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="iqac.php">IQAC</a></li>
-                                    <li><a href="NBA.php">NBA</a></li>
-                                    <li><a href="naac.php">NAAC</a></li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="#" class="dropdown-toggle ml-auto" data-toggle="dropdown">Research</a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="research-development.php">Recognised Supervision</a></li>
-                                    <li><a href="publications.php">Publications</a></li>
-                                    <li><a href="patents.php">Patents</a></li>
-                                    <li><a href="projects.php">Funded Projects / Research Grants</a></li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="#" class="dropdown-toggle ml-auto" data-toggle="dropdown">Admission</a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        @Html.ActionLink("Admission Criteria", "admission_criteria", "Home", null, new { @class = "nav-link" })
-                                    </li>
-                                    <li>
-                                        @Html.ActionLink("Fee structure", "fee_structure", "Home", null, new { @class = "nav-link" })
-                                    </li>
-                                    <li><a href="apply-online.php">Apply Online</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="#" class="dropdown-toggle ml-auto" data-toggle="dropdown">Academics</a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="@Url.Action("Index","Home")#cources">Course Offered</a></li>
-                                    <li><a href="academic-calendar.php">Academic Calendar</a>
-                                        </li>
-                                    <li>
-                                        @Html.ActionLink("Syllabus", "syllabus", "Home", null, new { @class = "nav-link" })
-                                    </li>
-                            </li>
-                        </ul>
-                        </li>
-
-
-                        <li>
-                            <a href="https://odishavikash.com/" class="link" role="button">About us</a>
-
-                            </ul>
-                        </li>
-
-
-                        </ul>
+                  </li>
+                  <li class="nav-item dropdown btn41-43 btn-43">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admission
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <a class="dropdown-item" href="@Url.Action("admission_criteria","Home")">Admission Criteria</a>
+                                    <a class="dropdown-item" href="@Url.Action("fee_structure","Home")">Fee Structure</a>
+                        <a class="dropdown-item" href="#">Submenu 3</a>
                     </div>
-                </div>
-
+                  </li>
+                  <li class="nav-item dropdown btn41-43 btn-43">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Research
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                      <a class="dropdown-item" href="#">Submenu 1</a>
+                      <a class="dropdown-item" href="#">Submenu 2</a>
+                      <a class="dropdown-item" href="#">Submenu 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown btn41-43 btn-43">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Accreditation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                      <a class="dropdown-item" href="#">IQAC</a>
+                      <a class="dropdown-item" href="#">NBA</a>
+                      <a class="dropdown-item" href="#">NAAC</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown btn41-43 btn-43">
+                    <a class="nav-link" href="facilities.html" id="navbarDropdown5" role="button" >
+                      Facilities
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
+            
+          </nav>
         </div>
 
     </header>
@@ -134,112 +148,162 @@
     <!-- ################# Our Footer Starts Here#######################--->
 
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 about">
-                    <h2>About Us</h2>
-                    <p><h5>Vikash Group of Institutions</h5>Aiming on the overall development of our students. </p>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 about">
+                <h2>About Us</h2>
+                <p><h5>Vikash Group of Institutions</h5>Aiming on the overall development of our students. </p>
 
-                    <div class="footer-address">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="adress">
-                            Near nandanvan,<br>
-                            Atari, Raipur,
-                            Chattisgarh, IND
-                        </div>
+                <div class="footer-address">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="footer-address">
-                        <div class="icon">
-                            <i class="far fa-envelope-open"></i>
-                        </div>
-                        <div class="adress">
-                            collegeemail@gmail.com <br>
-                            collegeemail2@gmail.com
-                        </div>
-                    </div>
-                    <div class="footer-address">
-                        <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <div class="adress">
-                            +23 323 43434 <br>
-                            +1 3232 434 55
-                        </div>
+                    <div class="adress">
+                        Near nandanvan,<br>
+                        Atari, Raipur,
+                        Chattisgarh, IND
                     </div>
                 </div>
-
-                <div class="col-md-4 google-link">
-                    <ul>
-                        <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Home", "Index", "Home", new {  })</li>
-                        <li><i class="fas fa-angle-double-right"></i><a href="https://odishavikash.com/" >About Us</a></li>
-                        <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Gallery", "gallery", "Home", new {  })</li>
-                        <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Contact Us", "Contact_us", "Home", new {  })</li>
-                        <li><i class="fas fa-angle-double-right"></i><a href="@Url.Action("Index","Home")#cources">Courses</a></li>
-                        <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Fee Structure", "fee_structure", "Home", new {  })</li>
-                    </ul>
-                </div><link href="c:\users\ashut\desktop\new folder (4)\kvipsr_raipur-master\views\shared\_layout.cshtml.css" rel="stylesheet" />
-<a href="c:\users\ashut\desktop\new folder (4)\kvipsr_raipur-master\views\shared\_layout.cshtml"></a>
-                <div class="col-md-4 tags">
-                    <h2>Our Institutes</h2>
-                    <ul>
-                        <li><a href="https://odishavikash.com/">VIKASH GROUP OF INSTITUTIONS</a></li>
-                        <li><a href="#"></a>KVIT</li>
-                        <li><a href="#"></a>KVIPSR</li>
-                        <li><a href="#"></a>VIKASH RESIDENTIAL SCHOOL</li>
-                        <li><a href="#"></a>VIKASH FIRST STEP</li>
-                    </ul>
+                <div class="footer-address">
+                    <div class="icon">
+                        <i class="far fa-envelope-open"></i>
+                    </div>
+                    <div class="adress">
+                        collegeemail@gmail.com <br>
+                        collegeemail2@gmail.com
+                    </div>
+                </div>
+                <div class="footer-address">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="adress">
+                        +23 323 43434 <br>
+                        +1 3232 434 55
+                    </div>
                 </div>
             </div>
+
+            <div class="col-md-4 google-link">
+                <ul>
+                    <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Home", "Index", "Home", new { })</li>
+                    <li><i class="fas fa-angle-double-right"></i><a href="https://odishavikash.com/">About Us</a></li>
+                    <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Gallery", "gallery", "Home", new { })</li>
+                    <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Contact Us", "Contact_us", "Home", new { })</li>
+                    <li><i class="fas fa-angle-double-right"></i><a href="@Url.Action("Index","Home")#cources">Courses</a></li>
+                    <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Fee Structure", "fee_structure", "Home", new { })</li>
+                </ul>
+            </div><link href="c:\users\ashut\desktop\new folder (4)\kvipsr_raipur-master\views\shared\_layout.cshtml.css" rel="stylesheet" />
+            <a href="c:\users\ashut\desktop\new folder (4)\kvipsr_raipur-master\views\shared\_layout.cshtml"></a>
+            <div class="col-md-4 tags">
+                <h2>Our Institutes</h2>
+                <ul>
+                    <li><a href="https://odishavikash.com/">VIKASH GROUP OF INSTITUTIONS</a></li>
+                    <li><a href="#"></a>KVIT</li>
+                    <li><a href="#"></a>KVIPSR</li>
+                    <li><a href="#"></a>VIKASH RESIDENTIAL SCHOOL</li>
+                    <li><a href="#"></a>VIKASH FIRST STEP</li>
+                </ul>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-
-
-    <!--SocialMedia Icon start-->
-    <socialLinks>
-        <ul>
-            <li><a href="tel:9337310441 "><i class="fas fa-phone"></i><span>+91 9337310441</span></a></li>
-            <li><a href="mailto:contact@orissavikash.com"><i class="far fa-envelope-open"></i><span>E-Mail</span></a></li>
-            <li><a href="https://www.facebook.com/odisha.vikash" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
-            <li><a href="https://www.youtube.com/channel/UCG_3f4JuZJ0yd-sCPSvcXSA" target="_blank"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
-        </ul>
-    </socialLinks>
-
-    <script src="~/assets/js/jquery-3.2.1.min.js"></script>
-    <script src="~/assets/js/popper.min.js"></script>
-    <script src="~/assets/js/bootstrap.min.js"></script>
-    <script src="~/assets/plugins/slider/js/owl.carousel.min.js"></script>
-    <script src="~/assets/js/script.js"></script>
-
-    @{
-        string currentPage = "Fee Structure";
-    }
-    
-
-    <script>
-        // Get a reference to the stylesheet
-        var stylesheet = document.getElementById('dynamicStylesheet');
-
-        // Check if the current page URL ends with "facilities.cshtml"
-        var currentPage = window.location.pathname;
-        var shouldIncludeStylesheet = currentPage.endsWith("facilities.cshtml");
-
-        if (shouldIncludeStylesheet) {
-            // If shouldIncludeStylesheet is true, include the stylesheet
-            stylesheet.rel = 'stylesheet';
-        } else {
-            // If shouldIncludeStylesheet is false, remove the stylesheet
-            stylesheet.rel = '';
-        }
-    </script>
-
+<!----------------------SocialMedia Icon start------------------------>
+<socialLinks>
+    <ul>
+        <li><a href="tel:9337310441 "><i class="fas fa-phone"></i><span>+91 9337310441</span></a></li>
+        <li><a href="mailto:contact@orissavikash.com"><i class="far fa-envelope-open"></i><span>E-Mail</span></a></li>
+        <li><a href="https://www.facebook.com/odisha.vikash" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UCG_3f4JuZJ0yd-sCPSvcXSA" target="_blank"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+    </ul>
+</socialLinks>
 
 </body>
+
+<script src="~/assets/js/jquery-3.2.1.min.js"></script>
+<script src="~/assets/js/popper.min.js"></script>
+<script src="~/assets/js/bootstrap.min.js"></script>
+<script src="~/assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="~/assets/js/script.js"></script>
+<script src="~/assets/aos-master/dist/aos.js"></script>
+
+<script>
+
+
+    AOS.init();
+
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("header").style.top = "0";
+            } else {
+                document.getElementById("header").style.top = "-163px";
+            }
+            prevScrollpos = currentScrollPos;
+
+        }
+    }
+
+    $(document).ready(function () {
+        // Initialize the carousel
+        $('#myCarousel').carousel();
+
+        // Click event handler for thumbnail anchors
+        $('.custom-carousel-indicators .indicator-item').click(function (e) {
+            e.preventDefault(); // Prevent the default behavior of anchor tags
+            var slideId = $(this).attr('href'); // Get the href attribute value
+            $('#myCarousel').carousel($(slideId).index()); // Switch to the clicked slide
+            $('.custom-carousel-indicators .indicator-item').removeClass('active'); // Remove active class from all indicators
+            $(this).addClass('active'); // Add active class to the clicked indicator
+        });
+
+        // Automatic slide change interval
+        setInterval(function () {
+            $('#myCarousel').carousel('next');
+            updateActiveIndicator(); // Update active indicator
+        }, 3000); // Change slides every 3 seconds (adjust as needed)
+
+        // Function to update active indicator
+        function updateActiveIndicator() {
+            var activeSlideIndex = $('.carousel-item.active').index(); // Get the index of the active slide
+            $('.custom-carousel-indicators .indicator-item').removeClass('active'); // Remove active class from all indicators
+            $('.custom-carousel-indicators .indicator-item').eq(activeSlideIndex).addClass('active'); // Add active class to corresponding indicator
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+            offset: 100, // Adjust this offset as needed
+            delay: 100, // Optional delay
+            once: true // Only animate elements once
+        });
+    });
+</script>
+<script>
+    // Get a reference to the stylesheet
+    var stylesheet = document.getElementById('dynamicStylesheet');
+
+    // Check if the current page URL ends with "facilities.cshtml"
+    var currentPage = window.location.pathname;
+    var shouldIncludeStylesheet = currentPage.endsWith("facilities.cshtml");
+
+    if (shouldIncludeStylesheet) {
+        // If shouldIncludeStylesheet is true, include the stylesheet
+        stylesheet.rel = 'stylesheet';
+    } else {
+        // If shouldIncludeStylesheet is false, remove the stylesheet
+        stylesheet.rel = '';
+    }
+</script>
+
+
+
 
 </html>

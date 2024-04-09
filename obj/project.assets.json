@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR_RAIPUR-master\\KVIPSR_RAIPUR.csproj",
+      "projectUniqueName": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\KVIPSR_RAIPUR.csproj",
       "projectName": "KVIPSR_RAIPUR",
-      "projectPath": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR_RAIPUR-master\\KVIPSR_RAIPUR.csproj",
+      "projectPath": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\KVIPSR_RAIPUR.csproj",
       "packagesPath": "C:\\Users\\ashut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR_RAIPUR-master\\obj\\",
+      "outputPath": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

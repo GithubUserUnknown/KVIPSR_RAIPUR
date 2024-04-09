@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KVIPSR_RAIPUR
 build_property.RootNamespace = KVIPSR_RAIPUR
-build_property.ProjectDir = C:\Users\ashut\Desktop\New folder (4)\KVIPSR_RAIPUR-master\
+build_property.ProjectDir = C:\Users\ashut\Desktop\New folder (4)\KVIPSR-RAIPUR\KVIPSR_RAIPUR\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ashut\Desktop\New folder (4)\KVIPSR_RAIPUR-master
+build_property.MSBuildProjectDirectory = C:\Users\ashut\Desktop\New folder (4)\KVIPSR-RAIPUR\KVIPSR_RAIPUR
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/admission_criteria.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/admission_criteria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pc3Npb25fY3JpdGVyaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/contact_us.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/contact_us.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YWN0X3VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/facilities.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/facilities.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmYWNpbGl0aWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/fee_structure.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/fee_structure.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmZWVfc3RydWN0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/gallery.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxnYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/Index.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Home/syllabus.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/syllabus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzeWxsYWJ1cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Shared/Error.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/_ViewImports.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/_ViewStart.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ashut/Desktop/New folder (4)/KVIPSR_RAIPUR-master/Views/Shared/_Layout.cshtml]
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9awxguo1f9
