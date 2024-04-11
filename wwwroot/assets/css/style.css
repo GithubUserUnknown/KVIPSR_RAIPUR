@@ -426,7 +426,7 @@ header {
 /* ===================================== parallax  ================================== */
 .parallax {
     /* The image used */
-    background-image: url("/~/assets/images/PARLAX.jpeg");
+    background-image: url("/assets/images/PARLAX.jpeg");
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -438,7 +438,7 @@ header {
 
 .parallax1 {
     /* The image used */
-    background-image: url("~/assets/images/PARLAX.jpeg");
+    background-image: url("/assets/images/PARLAX.jpeg");
     /* Set a specific height */
     min-height: 400px;
     /* Create the parallax scrolling effect */
@@ -636,7 +636,7 @@ header {
 
 .eventz-home5 {
     font-family: "Montserrat", sans-serif;
-    /*background-image: url("~/assets/images/slide-1.png");
+    /*background-image: url("/assets/images/slide-1.png");
   background-size: cover;
   background-repeat: no-repeat;*/
     color: #8d97ad;
@@ -809,7 +809,7 @@ header {
 
 .parallax2 {
     /* The image used */
-    background-image: url("~/assets/images/library.jpeg");
+    background-image: url("/assets/images/library.jpeg");
     /* Set a specific height */
     min-height: 400px;
     /* Create the parallax scrolling effect */
@@ -1371,7 +1371,7 @@ body {
 }
 
 .pg-header {
-    background: url(~/assets/images/slider/slider-3.jpg) top center no-repeat;
+    background: url(/assets/images/slider/slider-3.jpg) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }

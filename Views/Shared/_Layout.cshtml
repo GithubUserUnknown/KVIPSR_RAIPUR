@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/assets/css/fontawsom-all.min.css">
-
+    <link rel="stylesheet" href="~/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
     <link rel="stylesheet" href="~/assets/aos-master/dist/aos.css">
    
@@ -219,12 +219,11 @@
 <script src="~/assets/js/jquery-3.2.1.min.js"></script>
 <script src="~/assets/js/popper.min.js"></script>
 <script src="~/assets/js/bootstrap.min.js"></script>
-<script src="~/assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="~/assets/owlcarousel/owl.carousel.min.js"></script>
 <script src="~/assets/js/script.js"></script>
 <script src="~/assets/aos-master/dist/aos.js"></script>
 
 <script>
-
 
     AOS.init();
 
@@ -232,7 +231,7 @@
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
-        if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("header").style.top = "0";
             } else {
@@ -276,21 +275,40 @@
             once: true // Only animate elements once
         });
     });
-</script>
-<script>
-    // Get a reference to the stylesheet
-    var stylesheet = document.getElementById('dynamicStylesheet');
 
-    // Check if the current page URL ends with "facilities.cshtml"
-    var currentPage = window.location.pathname;
-    var shouldIncludeStylesheet = currentPage.endsWith("facilities.cshtml");
 
-    if (shouldIncludeStylesheet) {
-        // If shouldIncludeStylesheet is true, include the stylesheet
-        stylesheet.rel = 'stylesheet';
-    } else {
-        // If shouldIncludeStylesheet is false, remove the stylesheet
-        stylesheet.rel = '';
+    /* $(document).ready(function(){
+     $("#testimonial-slider").owlCarousel({
+
+         items:1,
+         itemsDesktop:[1000,1],
+         itemsDesktopSmall:[979,1],
+         itemsTablet:[768,1],
+         margin:10,
+         pagination:false,
+         navigation:true,
+         navigationText:["",""],
+         autoPlay:true
+     });
+    }); */
+
+
+    let slideIndex = -1;
+
+    function moveSlide(direction) {
+        const slidesz = document.querySelector('.slidesz');
+        const slideWidth = document.querySelector('.slidez').offsetWidth;
+        const maxIndex = document.querySelectorAll('.slidez').length - 1;
+
+        slideIndex += direction;
+
+        if (slideIndex < 0) {
+            slideIndex = maxIndex;
+        } else if (slideIndex > maxIndex) {
+            slideIndex = 0;
+        }
+
+        slidesz.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
     }
 </script>
 

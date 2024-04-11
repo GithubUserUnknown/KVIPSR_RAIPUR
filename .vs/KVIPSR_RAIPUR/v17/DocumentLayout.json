@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|c:\\users\\ashut\\desktop\\new folder (4)\\kvipsr-raipur\\kvipsr_raipur\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|c:\\users\\ashut\\desktop\\new folder (4)\\kvipsr-raipur\\kvipsr_raipur\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|solutionrelative:wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|solutionrelative:views\\home\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|c:\\users\\ashut\\desktop\\new folder (4)\\kvipsr-raipur\\kvipsr_raipur\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|c:\\users\\ashut\\desktop\\new folder (4)\\kvipsr-raipur\\kvipsr_raipur\\views\\home\\contact_us.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7823944E-EBE4-4237-B4F7-8150260FCE83}|KVIPSR_RAIPUR.csproj|solutionrelative:views\\home\\contact_us.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -66,32 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAAAO4AAAAuAAAA",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAAANEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T13:15:58.168Z"
+              "WhenOpened": "2024-04-09T13:15:58.168Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\style.css",
               "ToolTip": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\css\\style.css",
               "RelativeToolTip": "wwwroot\\assets\\css\\style.css",
-              "ViewState": "AQIAAGYFAAAAAAAAAAAtwHIFAAAWAAAA",
+              "ViewState": "AQIAALgFAAAAAAAAAAAowM8FAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-04-09T12:48:48.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "courses3.cshtml",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Home\\courses3.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\courses3.cshtml",
@@ -115,19 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEgAAABOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T11:24:24.697Z"
+              "WhenOpened": "2024-04-08T11:24:24.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "courses.cshtml",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Home\\courses.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\courses.cshtml",
@@ -139,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AboutUs.cshtml",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Home\\AboutUs.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
@@ -151,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "courses2.cshtml",
               "DocumentMoniker": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\Views\\Home\\courses2.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\courses2.cshtml",
