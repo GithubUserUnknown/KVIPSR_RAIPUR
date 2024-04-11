@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVIPSR_RAIPUR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+407b1e1db3dff3a79c941c8e58bf2c459fbc58a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11952c267f8e7450211dbfefe9199620f6b49b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVIPSR_RAIPUR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVIPSR_RAIPUR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

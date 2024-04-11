@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ashut\Desktop\New folder (4)\KVIPSR-RAIPUR\KVIPSR_RAIPUR
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/admission_criteria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pc3Npb25fY3JpdGVyaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/contact_us.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YWN0X3VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/courses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/courses2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2VzMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/courses3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2VzMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ashut/Desktop/New folder (4)/KVIPSR-RAIPUR/KVIPSR_RAIPUR/Views/Home/facilities.cshtml]

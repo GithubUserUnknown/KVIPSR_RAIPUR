@@ -20,15 +20,6 @@
         background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;
       }
 
-#carousel {
-    margin-top: 25px;
-    height: 700px !important;
-}
-
-.carousel-caption {
-  padding-bottom: 170px !important;
-}
-
 
 
 
@@ -79,7 +70,7 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-2">
                   <li class="nav-item dropdown btn41-43 btn-43">
-                    <a class="nav-link" href="#" id="navbarDropdown1" role="button" >
+                                <a class="nav-link" href="@Url.Action("AboutUs","Home")" id="navbarDropdown1" role="button">
                         About us
                     </a>
                     
@@ -188,7 +179,7 @@
             <div class="col-md-4 google-link">
                 <ul>
                     <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Home", "Index", "Home", new { })</li>
-                    <li><i class="fas fa-angle-double-right"></i><a href="https://odishavikash.com/">About Us</a></li>
+                        <li><i class="fas fa-angle-double-right"></i><a href="@Url.Action("AboutUs","Home")">About Us</a></li>
                     <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Gallery", "gallery", "Home", new { })</li>
                     <li><i class="fas fa-angle-double-right"></i>@Html.ActionLink("Contact Us", "Contact_us", "Home", new { })</li>
                     <li><i class="fas fa-angle-double-right"></i><a href="@Url.Action("Index","Home")#cources">Courses</a></li>

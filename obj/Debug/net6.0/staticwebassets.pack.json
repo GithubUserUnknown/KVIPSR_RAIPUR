@@ -209,6 +209,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\16023.jpg"
     },
     {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\Chairman.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Chairman.png"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\IMG-20240410-WA0007.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\IMG-20240410-WA0007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\IMG_20240203_151719193.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\IMG_20240203_151719193.jpg"
+    },
+    {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\KVHEI, Raipur.png",
       "PackagePath": "staticwebassets\\assets\\images\\KVHEI, Raipur.png"
     },
@@ -217,8 +229,20 @@
       "PackagePath": "staticwebassets\\assets\\images\\KVHEI, Raipur_l.png"
     },
     {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\Leadership.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Leadership.png"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\MD Sir.png",
+      "PackagePath": "staticwebassets\\assets\\images\\MD Sir.png"
+    },
+    {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\PARLAX.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\PARLAX.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\abt.png",
+      "PackagePath": "staticwebassets\\assets\\images\\abt.png"
     },
     {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\clg_logo.png",
@@ -247,6 +271,18 @@
     {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\cources\\course-6.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\cources\\course-6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\events\\Event-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\Event-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\events\\Event-2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\Event-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\events\\Event-3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\Event-3.jpeg"
     },
     {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\gallery\\gallery_01.jpeg",
@@ -313,6 +349,42 @@
       "PackagePath": "staticwebassets\\assets\\images\\gallery\\gallery_12.jpg"
     },
     {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\library.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\library.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\png (1).png",
+      "PackagePath": "staticwebassets\\assets\\images\\png (1).png"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide-1.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide-4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slide1.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\slide1.gif"
+    },
+    {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\slider\\slider-1.jpeg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slider-1.jpeg"
     },
@@ -343,6 +415,14 @@
     {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\team\\VivekSir.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\VivekSir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\thumbnail.png",
+      "PackagePath": "staticwebassets\\assets\\images\\thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\images\\vid1.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\vid1.mp4"
     },
     {
       "Id": "C:\\Users\\ashut\\Desktop\\New folder (4)\\KVIPSR-RAIPUR\\KVIPSR_RAIPUR\\wwwroot\\assets\\js\\bootstrap.min.js",

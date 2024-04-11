@@ -39,6 +39,22 @@ namespace KVIPSR_RAIPUR.Controllers
         {
             return View();
         }
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+        public IActionResult courses()
+        {
+            return View();
+        }
+        public IActionResult courses2()
+        {
+            return View();
+        }
+        public IActionResult courses3()
+        {
+            return View();
+        }
         public IActionResult facilities()
         {
             return View();
