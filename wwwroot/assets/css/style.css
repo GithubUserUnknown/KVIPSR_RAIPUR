@@ -668,7 +668,8 @@ header {
     }
 
     .eventz-home5 .b-h-box .card-img-overlay {
-        bottom: 15px;
+        bottom: 0px;
+        padding-bottom: 0px;
         top: auto;
         -webkit-transition: 0.2s ease-in;
         -o-transition: 0.2s ease-in;
@@ -743,18 +744,6 @@ header {
     color: #ebeaea;
 }
 
-@media screen and (max-width: 940px) {
-    .offered-cources {
-        padding: 30px 10px;
-    }
-}
-
-@media screen and (max-width: 838px) {
-    .offered-cources {
-        padding: 20px 2px 20px 2px;
-        margin-top: 0px;
-    }
-}
 
 .offered-cources .courc-card {
     background-color: #FFF;
@@ -1371,8 +1360,37 @@ body {
 }
 
 .pg-header {
-    background: url(/assets/images/slider/slider-3.jpg) top center no-repeat;
+    background: url("/assets/images/xys.jpeg") top center no-repeat;
+    height: 600px !important;
+    width: 100%;
+    background-size: contain;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+
+
+.pg-header1 {
+    background: url("/assets/images/Untitled\ design.png") top center no-repeat !important;
+    height: 260px !important;
+    width: 100%;
+    background-size: contain;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.pg-header2 {
+    background: url("/assets/images/Untitled\ design\ \(2\).png") top center no-repeat !important;
+    height: 260px !important;
+    width: 100vw !important;
     background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.pg-header3 {
+    background: url("/assets/images/Untitled\ design\ \(1\).png") top center no-repeat !important;
+    height: 260px !important;
+    width: 100%;
+    background-size: contain;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
