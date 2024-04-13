@@ -35,24 +35,25 @@
     <!-- ################# Header Starts Here#######################--->
     <header>
         <div id="header">
-        <div class="header-top" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="70" data-aos-duration="700">
-            <div class="container">
+        <div class="header-top" >
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 left-item">
-                        <ul>
-                            <li><i class="fas fa-envelope-square"></i> collegeemail@gmail</li>
-                            <li><i class="fas fa-phone-square"></i> +918955725145</li>
-                            
-                            
-                        </ul>
-                    </div>
-                    <div class="col-lg-8 d-none d-lg-block right-item">
+                    
+                    <div class="col-lg-8 col-md-0 left-item">
                         <div class="top-header">
                             <b class="news-list" >NEWS: </b>
                         
                             <marquee class="headquote"> Admissions are now open for the 2024 session. Apply now !!!</marquee>
                         </div>
                     </div>
+                        <div class="col-lg-4 col-md-12 right-item">
+                            <ul>
+                                <li><i class="fas fa-envelope-square"></i> collegeemail@gmail</li>
+                                <li><i class="fas fa-phone-square"></i> +0123456789</li>
+
+
+                            </ul>
+                        </div>
                     
                 </div>
 
@@ -60,7 +61,7 @@
         </div>
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="1000" data-aos-duration="1000">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
             <div class="container-fluid navtab">
               <a class="navbar-brand ml-5" href="@Url.Action("Index","Home")">
                 <img src="~/assets/images/KVHEI, Raipur.png" alt=""  height="91px" width="135px"></a>
@@ -69,57 +70,62 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-2">
+                            <li class="nav-item dropdown btn41-43 btn-43">
+                                <a class="nav-link" href="@Url.Action("Index","Home")" id="navbarDropdown1" role="button">
+                                    HOME
+                                </a>
+
+                            </li>
                   <li class="nav-item dropdown btn41-43 btn-43">
                                 <a class="nav-link" href="@Url.Action("AboutUs","Home")" id="navbarDropdown1" role="button">
-                        About us
+                        ABOUT US
                     </a>
                     
                   </li>
                   <li class="nav-item dropdown btn41-43 btn-43">
                     <a class="nav-link " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Academics
-                    </a>
+                        ACADEMICS
+                    </a><!--
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                                     <a class="dropdown-item" href="@Url.Action("Index","Home")#cources">Course Offered</a>
                       <a class="dropdown-item" href="#">Submenu 2</a>
                                     <a class="dropdown-item" href="@Url.Action("Syllabus","Home")">Syllabus</a>
-                    </div>
+                                </div>-->
                   </li>
                   <li class="nav-item dropdown btn41-43 btn-43">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Admission
-                    </a>
+                    <a class="nav-link" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ADMISSION
+                                </a>
+                                <!--
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                                     <a class="dropdown-item" href="@Url.Action("admission_criteria","Home")">Admission Criteria</a>
                                     <a class="dropdown-item" href="@Url.Action("fee_structure","Home")">Fee Structure</a>
                         <a class="dropdown-item" href="#">Submenu 3</a>
-                    </div>
+                                </div>-->
                   </li>
                   <li class="nav-item dropdown btn41-43 btn-43">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Research
-                    </a>
+                                <a class="nav-link" href="@Url.Action("contact_us","Home")" id="navbarDropdown4">
+                        CONTACT
+                                </a>
+                                <!--
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
                       <a class="dropdown-item" href="#">Submenu 1</a>
                       <a class="dropdown-item" href="#">Submenu 2</a>
                       <a class="dropdown-item" href="#">Submenu 3</a>
-                    </div>
+                                </div>-->
                   </li>
                   <li class="nav-item dropdown btn41-43 btn-43">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Accreditation
-                    </a>
+                    <a class="nav-link" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ACCREDATION
+                                </a>
+                                <!--
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
                       <a class="dropdown-item" href="#">IQAC</a>
                       <a class="dropdown-item" href="#">NBA</a>
                       <a class="dropdown-item" href="#">NAAC</a>
-                    </div>
+                                </div>-->
                   </li>
-                  <li class="nav-item dropdown btn41-43 btn-43">
-                    <a class="nav-link" href="facilities.html" id="navbarDropdown5" role="button" >
-                      Facilities
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -140,11 +146,11 @@
 
 
 <footer>
-    <div class="container">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-sine" data-aos-duration="800">
         <div class="row">
             <div class="col-md-4 about">
                 <h2>About Us</h2>
-                <p><h5>Vikash Group of Institutions</h5>Aiming on the overall development of our students. </p>
+                <p><h5>Krishna Vikash Group of Institutions</h5>Aiming on the overall development of our students. </p>
 
                 <div class="footer-address">
                     <div class="icon">
@@ -270,8 +276,8 @@
     });
     document.addEventListener("DOMContentLoaded", function () {
         AOS.init({
-            offset: 100, // Adjust this offset as needed
-            delay: 100, // Optional delay
+            offset: 90, // Adjust this offset as needed
+            delay: 100,// Optional delay
             once: true // Only animate elements once
         });
     });
