@@ -584,11 +584,11 @@ header {
         }
 
         .gallry {
-            height: 700px !important;
+            height: 630px !important;
             margin-top: 15px !important;
             display: flex;
             justify-content: space-between !important;
-            overflow: auto
+            overflow: hidden;
         }
 
             .gallry img {
@@ -602,7 +602,7 @@ header {
 
 
     /* ===================================== Key Features Style CSS ================================== */
-
+    
     .gallry {
         margin-top: -20px;
         z-index: 900;
@@ -614,7 +614,7 @@ header {
     }
 
         .gallry img {
-            margin-right: 12px !important;
+            margin-right: 8px !important;
         }
 
         .gallry .gallry-text {
@@ -1460,18 +1460,18 @@ header {
         margin-top: 70px !important;
         background: url("/assets/images/phcontact.jpeg") top center no-repeat;
         width: 100%;
-        
+        height:270px !important;
         background-size: contain;
         text-shadow: 0 0 30px rgba(0, 0, 0, .1);
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 420px) {
     .pg-header {
         margin-top: 100px !important;
         background: url("/assets/images/phcontact.jpeg") top center no-repeat;
         width: 100%;
-        
+        height:220px;
         background-size: contain;
         text-shadow: 0 0 30px rgba(0, 0, 0, .1);
     }
